@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1659088552 source:c:\users\mike\documents\code stuff\dos\stats_chains.cpp
+	"stats_chains.h"
+	<iostream>
+
+1659088477 c:\users\mike\documents\code stuff\dos\stats_chains.h
+
