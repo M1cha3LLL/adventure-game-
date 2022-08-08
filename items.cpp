@@ -2,13 +2,84 @@
 #include "items.h"
 #include <iostream>
 #include <cstring>
+#include <array>
+#include <ctime>
+#include <cstdlib>
+/*
+char[10] typeName;
+int hpIncrease;
+bool used;
+char[20] name;
+        int hp;
+        int armor;
+        int dmg;
 
+        int level;
+
+*/
 
 
 using namespace std;
 
 
- void item :: itemConstructor(int HpIncrease, int Armor ,  int Damage , char ItemName, char TypeName ){}
+ void item :: itemConstructor(int HpIncrease, int Armor ,  int Damage , char ItemName, char TypeName ){
+
+    typeName = TypeName;
+    hpIncrease = HpIncrease ;
+
+    name = ItemName;
+
+    armor = Armor ;
+    dmg = Damage ;
+    level = level ;
+
+
+ }
+
+
+
+ char nameSelector(int Tier ,char inputArray[])
+{
+char[] name;
+srand(time(0))
+int randomNumber =  rand() % sizeof(inputArray)) + 1;
+for(int i = 0 , i == sizeof(inputArray,i++)){
+if (randomNumber == i){
+    return name = inputArray[i];
+}
+return name;
+}
+
+
+};
+ void itemGenerator(char type ,  int level , int tier){
+ int Armor;
+ int ItemName;
+ int HpIncrease;
+
+ char[20] nameCombo;
+char[10][10] tierOne ={{" ","a","s","s"," "}{ " ","j","a","vascript bad "}{}{}
+
+char[] name;
+srand(time(0))
+int randomNumber =  rand() % sizeof(inputArray)) + 1;
+for(int i = 0 , i == sizeof(inputArray,i++)){
+if (randomNumber == i){
+    return name = inputArray[i];
+}
+return name;
+}
+ //rarity
+if(tier == 1){
+
+}
+else if(tier == 2){
+
+}
+else if(tier == 3)
+
+
+ }
 /*
 
 void function makers(){

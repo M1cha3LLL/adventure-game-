@@ -7,7 +7,7 @@ namespace N
     {
     private:
         char[20] name;
-        int hp;
+
         int armor;
         int dmg;
 

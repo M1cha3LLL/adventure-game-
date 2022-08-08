@@ -4,13 +4,14 @@
 using namespace N;
 using namespace std;
 
-void chains::constructor(int Hp , int Def, int Atk, int Level , bool PlOrNpl)
+void chains::constructor(int Hp , int Def, int Atk, int Level )
 {
  hp = Hp ;
  def = Def;
  atk = Atk;
+
  level = Level;
- plOrNpl = PlOrNpl;
+
 }
 int chains::getDef(){
 
